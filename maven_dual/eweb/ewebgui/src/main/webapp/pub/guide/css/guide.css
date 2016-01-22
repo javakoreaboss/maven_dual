@@ -1,0 +1,25 @@
+*, html, body {padding:0; margin:0; font-family:dotum, arial; font-size:12px;}
+ul, ol, li {list-style:none; padding:0;}
+#wrap {width:100%; padding:0; margin:0; overflow:hidden;}
+#wrap .header {width:100%; padding:0; margin:0;}
+#wrap .header h1 {padding:10px 20px; font-size:18px;}
+.gnb {width:100%; overflow:hidden; background:#000;}
+.gnb li {float:left; width:33.3%; text-align:center;}
+.gnb li a {color:#fff; width:100%; display:block; padding:10px 0; border-left:1px solid #fff;}
+.gnb li:first-child a {border-left:0;}
+.gnb li:hover a, .gnb li.on a {background:#ccc; color:#000; font-weight:bold;}
+
+em {font-style:normal;}
+
+.container {overflow:hidden; padding:30px 0 0;}
+.lnb {float:left; width:10%;}
+.lnb > ul {padding:12px 20px;}
+.lnb > ul > li {padding:8px 0;}
+.content {float:right; width:90%; padding:0 0 50px;}
+
+.url_list {width:100%; border-collapse:collapse; border-spacing:0; word-wrap:break-word; word-break:break-all; box-sizing:border-box; border:1px solid #ddd;}
+.url_list th {background:#666; color:#fff; padding:10px 0; border-left:1px solid #ddd; border-bottom:1px solid #ddd;}
+.url_list td {border-bottom:1px solid #ddd; border-left:1px solid #ddd; padding:8px 0 8px 10px; font-size:12px;}
+
+.dep1 {background:#eee; font-weight:bold;}
+.dep1 em {display:block; padding:7px 0 0;}
